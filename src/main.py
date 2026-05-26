@@ -1,5 +1,5 @@
 from fetch import fetch_smhi_data
-from save_raw import save_raw_json
+from save_raw import save_raw_json, upload_to_azure
 
 
 def main():
@@ -11,7 +11,12 @@ def main():
     print("Saving raw JSON...")
     file_path = save_raw_json(data)
 
-    print(f"Done. Raw data saved to: {file_path}")
+    print(f"Raw data saved locally: {file_path}")
+
+    print("Uploading to Azure Blob Storage...")
+    upload_to_azure(file_path)
+
+    print("Pipeline finished successfully!")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,29 @@
+[
+  {
+    "date": 1779800400000,
+    "value": "0.0",
+    "quality": "G",
+    "station_id": 78550,
+    "station_name": "Fårösund Ar A",
+    "parameter": "Nederbördsmängd",
+    "unit": "millimeter"
+  },
+  {
+    "date": 1779800400000,
+    "value": "0.0",
+    "quality": "G",
+    "station_id": 78400,
+    "station_name": "Visby Flygplats",
+    "parameter": "Nederbördsmängd",
+    "unit": "millimeter"
+  },
+  {
+    "date": 1779800400000,
+    "value": "0.0",
+    "quality": "G",
+    "station_id": 68560,
+    "station_name": "Hoburg A",
+    "parameter": "Nederbördsmängd",
+    "unit": "millimeter"
+  }
+]
