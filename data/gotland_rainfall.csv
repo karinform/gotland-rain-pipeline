@@ -1,0 +1,4 @@
+date,value,quality,station_id,station_name,parameter,unit
+2026-05-26 12:00:00,0.0,G,78550,Fårösund Ar A,Nederbördsmängd,millimeter
+2026-05-26 12:00:00,0.0,G,78400,Visby Flygplats,Nederbördsmängd,millimeter
+2026-05-26 12:00:00,0.0,G,68560,Hoburg A,Nederbördsmängd,millimeter
