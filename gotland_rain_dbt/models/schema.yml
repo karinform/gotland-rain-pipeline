@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_rainfall
+    description: "Staging model for raw SMHI rainfall data"
+
+    columns:
+      - name: station_id
+        description: "Unique identifier for weather station"
+
+      - name: rainfall_mm
+        description: "Rainfall measurement in millimeters"
+
+  - name: rainfall_summary
+    description: "Aggregated rainfall per station and date"
+
+    columns:
+      - name: station_name
+        description: "Name of weather station"
+
+      - name: total_rainfall_mm
+        description: "Total rainfall per day"
+
+        tests:
+          - not_null
